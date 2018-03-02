@@ -1,3 +1,5 @@
 [submodule "secp256k1"]
 	path = secp256k1
 	url = https://github.com/itomych/secp256k1.git
+	branch = develop
+	
