@@ -28,6 +28,12 @@
 #include <inttypes.h>
 #include <assert.h>
 
+#if BITCOIN_TESTNET
+const int BR_TESTNET = 1;
+#else
+const int BR_TESTNET = 0;
+#endif
+
 #define VAR_INT16_HEADER  0xfd
 #define VAR_INT32_HEADER  0xfe
 #define VAR_INT64_HEADER  0xff

@@ -38,6 +38,8 @@ extern "C" {
 #pragma message "testnet build"
 #endif
 
+extern const int BR_TESTNET;
+
 // bitcoin address prefixes
 #define BITCOIN_PUBKEY_ADDRESS      0
 #define BITCOIN_SCRIPT_ADDRESS      5
